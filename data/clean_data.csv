@@ -1,0 +1,5 @@
+Date,CustomerID,Product,Amount,PaymentMethod
+2025-03-01,1001,'Apple',200.0,'CreditCard'
+2025-03-01,1002,'Banana',150.0,'Cash'
+2025-03-02,1001,'Orange',180.0,'CreditCard'
+2025-03-03,1004,'Banana',150.0,'Cash'

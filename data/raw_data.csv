@@ -1,4 +1,4 @@
-Date,Customer_ID,Product,Amount,Paymentmethod
+Date,CustomerID,Product,Amount,PaymentMethod
 '2025-03-01',1001,'Apple',200,'CreditCard'
 '2025-03-01',1002,'Banana',150,'Cash'
 '2025-03-02',1001,'Orange',180,'CreditCard'
