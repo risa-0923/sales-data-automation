@@ -28,8 +28,7 @@ python scripts/data_cleaning.py
 python scripts/generate_report.py
 ```
 
-## 今後の展望-あれば
-
+## 今後の展望
 - 集計結果をグラフ化（matplotlibやseaborn）して、視覚的に理解しやすくする
 - Flaskを使って、ブラウザから操作できる簡単なWebアプリ化に挑戦したい
 
