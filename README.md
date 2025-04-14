@@ -23,6 +23,11 @@ SAS/SQL で行っていたデータ処理・レポート生成を Python で自�
 ## 実行方法
 以下の順に実行します。(Python環境が必要です)：
 
+1.必要なライブラリをインストールします。
+```bash
+pip install -r requirements.txt
+```
+
 ```bash
 python scripts/data_cleaning.py
 python scripts/generate_report.py
