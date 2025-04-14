@@ -28,4 +28,19 @@ report_df = pd.DataFrame ({
 #レポートをCSVに保存
 report_df.to_csv(report_path, index=False)
 
+
+#グラフ化する
+import matplotlib.pyplot as plt
+
+#支払い方法ごとの売上をグラフ化
+amounts = list(sales_by_payment.values)
+methods = list(sales_by_payment.keys())
+
+plt.bar(methods, amounts)
+plt.title("Sales by Payment Method")
+plt.xlabel("Payment Method")
+plt.ylabel("Amount")
+plt.tight_layout()
+plt.show()
+
 print(f"売上レポートを {report_path} に保存しました！")
